@@ -82,9 +82,25 @@
 
 ### **Пример вывода**
 ```
+[main] INFO org.javakov.algorithm.BatAlgorithm - Инициализация алгоритма летучих мышей
+[main] INFO org.javakov.algorithm.BatAlgorithm - Лучшая летучая мышь обновлена: fitness=1.567882710742898
+[main] INFO org.javakov.algorithm.BatAlgorithm - Итерация 0
+[main] INFO org.javakov.algorithm.BatAlgorithm - Лучшая летучая мышь обновлена: fitness=0.36003966342705795
+[main] INFO org.javakov.algorithm.BatAlgorithm - Итерация 1
+[main] INFO org.javakov.algorithm.BatAlgorithm - Лучшая летучая мышь обновлена: fitness=0.09685101253608942
+[main] INFO org.javakov.algorithm.BatAlgorithm - Итерация 2
+[main] INFO org.javakov.algorithm.BatAlgorithm - Лучшая летучая мышь обновлена: fitness=0.01657187082453985
+.....
+[main] INFO org.javakov.algorithm.BatAlgorithm - Итерация 998
+[main] INFO org.javakov.algorithm.BatAlgorithm - Лучшая летучая мышь обновлена: fitness=1.734459980658586E-5
+[main] INFO org.javakov.algorithm.BatAlgorithm - Итерация 999
+[main] INFO org.javakov.algorithm.BatAlgorithm - Лучшая летучая мышь обновлена: fitness=1.734459980658586E-5
+[main] INFO org.javakov.algorithm.BatAlgorithm - Оптимизация завершена. Лучшее решение: [0.0032575551731364406, 0.002594789798915873]
+[main] INFO org.javakov.algorithm.BatAlgorithm - Значение функции: 1.734459980658586E-5
+
 Лучшее решение:
-0.000123 -0.000045 
-Значение функции: 0.000017
+0,003258 0,002595 
+Значение функции: 0,000017
 ```
 
 BA сочетает в себе элементы роя частиц (PSO) и имитации отжига, но благодаря механизму эхолокации обладает повышенной адаптивностью, что делает его мощным инструментом для решения широкого класса задач оптимизации.
